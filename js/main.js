@@ -8,17 +8,15 @@
 
 // creazione variabili per memorizzare i numeri e quelli oggetto di operazioni
 var Num, NumDiv3, NumDiv5 ;
-
+NumDiv3 = (Num%3==0)
 
 // stampare la variabile Num da 1 a 100 (invece di scrivere la riga 100 volte creo un ciclo inizializzato da 1 a 100 che aumenta a passi di 1)
 for (var Num = 1; Num <= 100; Num++) {
-  console.log(Num);
 
 // se il numero è un multiplo di 3 (ovvero il modulo di 3 da resto che è un numero intero) la variabile numero deve stampare "Fizz"
 if (Num%3==0) {
 
   console.log("Fizz");
-
 }
 
  // altrimenti se il numero è un modulo di 5 (quindi il modulo da resto) deve stampare "Buzz"
@@ -31,6 +29,7 @@ else if (Num%3 == 0 && Num%5 == 0) {
 }
 // in caso contrario deve stampare (o restituire) solo il numero.
 else {
+  console.log(Num);
 }
 
 }
