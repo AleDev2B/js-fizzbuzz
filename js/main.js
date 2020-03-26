@@ -13,7 +13,7 @@ var Num
 for (var Num = 1; Num <= 100; Num++) {
 
 // se il numero è un multiplo di 3 (ovvero il modulo di 3 da resto 0) e di cinque (idem), devi stampare la parola "FizzBuzz"
-if ((Num%3 || Num%5) ==0) {
+if (Num%3 == 0 && Num%5 ==0) {
   console.log("FizzBuzz");
 }
 
